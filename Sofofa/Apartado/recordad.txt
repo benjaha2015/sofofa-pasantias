@@ -1,0 +1,6 @@
+concat para juntar datasets de leype
+to_csv('nombre.csv') = usar cuando junte todo leype.csv para crear
+un archivo unico de esos datasets
+
+https://ide.minvu.cl/datasets/fl-subsidios-de-arriendo-ds52/explore?location=-33.626280%2C-70.323292%2C8.77
+pagina para subsidios localizaciones 

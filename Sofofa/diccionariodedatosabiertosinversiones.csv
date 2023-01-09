@@ -1,0 +1,22 @@
+Dato,Descripci�n,Tipo,Largo,Valores Posibles
+A�o,Periodo al cual corresponden las iniciativas de Inversi�n,Num�rico,4,N�meros
+Mes,Mes del a�o al cual se presenta acumulados los montos de las iniciativas de Inversi�n,Texto,10,Enero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Septiembre, Octubre, Noviembre, Diciembre
+Partida,C�digo de la Partida,Texto,2,N�meros
+Nombre Partida,Nombre de la Partida,Texto,100,Caracteres
+Cap�tulo,C�digo del Cap�tulo,Texto,2,N�meros
+Nombre Cap�tulo,Nombre del Cap�tulo,Texto,100,Caracteres
+Programa,C�digo del Programa,Texto,2,N�meros
+Nombre Programa,Nombre del Programa,Texto,100,Caracteres
+Regi�n Destino,C�digo de la Regi�n de Destino,Texto,2,N�meros
+Nombre Regi�n,Nombre de la Regi�n de Destino,Texto,100,Caracteres
+Provincia Destino,C�digo de la Provincia de Destino,Texto,2,N�meros
+Nombre Provincia,Nombre de la Provincia de Destino,Texto,100,Caracteres
+Comuna Destino,C�digo de la Comuna de Destino,Texto,2,N�meros
+Nombre Comuna,Nombre de la Comuna de Destino,Texto,100,Caracteres
+Moneda,Moneda en la cual se expresa monto Identificado, Compromiso y Devengo,Texto,10,Miles de Pesos, Miles de D�lares
+C�digo Bip,Identificaci�n del n�mero o c�digo BIP de las inversiones en estudios b�sicos proyectos y programas,Texto,10,N�meros con d�gito verificador
+Nombre Proyecto,Identificaci�n del nombre (descripci�n) del c�digo BIP,Texto,100,Caracteres
+Suma de Monto Identificado Ley FET,Monto acumulado de asignaci�n de recursos de las iniciativas de inversi�n,Num�rico,15,2,N�meros
+Suma de Monto Devengado Ley FET,Monto acumulado aplicado en devengos presupuestarios de las iniciativas de inversi�n,Num�rico,15,2,N�meros
+Suma de Monto Identificado Ley de Pptos.,Monto acumulado de asignaci�n de recursos de las iniciativas de inversi�n,Num�rico,15,2,N�meros
+Suma de Monto Devengado Ley de Pptos.,Monto acumulado aplicado en devengos presupuestarios de las iniciativas de inversi�n,Num�rico,15,2,N�meros
