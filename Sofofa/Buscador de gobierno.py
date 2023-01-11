@@ -40,7 +40,7 @@ def sal(Var_comuna):
         return 'Comuna no encontrada'
     else:
         return in_2.head()
-        
+
 
  
 print(identi(elige))
