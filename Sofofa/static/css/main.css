@@ -1,8 +1,19 @@
+
 body{
     background-color:rgb(150, 144, 144);
 }
+
 header{
     background-color: rgb(16, 116, 129);
-    height: 40px;
+    height: 60px;
     width: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.textoheader{
+    margin-top: 30px;
+
 }
