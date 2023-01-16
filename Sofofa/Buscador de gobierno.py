@@ -13,9 +13,9 @@ def identi(elige):
   return (elige)
  elif elige == "bono":
     print("Bienvenido a la seccion bonos")
-    Var_comuna = (input("Ingrese la comuna: "))
-    Var_comuna = Var_comuna.upper()
-    print(sal(Var_comuna))
+    Var_region = (input("Ingrese la comuna: "))
+    Var_region = Var_region.upper()
+    print(sal(Var_region))
     return elige
  elif elige == "presupuestoNOV2022":
     print("Estan son la ley de presupuesto de noviembre 2022")
