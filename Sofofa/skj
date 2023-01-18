@@ -1,0 +1,10 @@
+import folium
+from geopy.geocoders import Nominatim
+app = Nominatim(user_agent = "tycgis")
+
+Hoyo= input("cual es la calle: ")
+print("Primer punto ->" ,Hoyo)
+location1 = app.geocode(Hoyo).raw
+latitude1 = location1["lat"]
+longitude1 = location1["lon"]
+punto = (latitude1, longitude1)
