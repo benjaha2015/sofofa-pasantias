@@ -12,11 +12,16 @@
     <Section>
         <div class="login">
     <h1>Que quiere buscar</h1>
+    <p>En algunas tiene que ser un poco mas espcifico para que logren funcionar </p>
     <form action ="{{url_for('BUSCADOR')}}" method="post">
         <input type="text" name="busca" placeholder="¿que busca?">
         <input type="text" name="tipo" placeholder="tipo de dato especifico">
         <button type="submit" class="btn btn-primary btn-block btn_large"> enviar</button>
     </div>
+    {% for table in tables %}
+            {{titles[loop.index]}}
+            {{ table|safe }}
+{% endfor %}
     </Section>
 </body>
 </html>
