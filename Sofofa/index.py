@@ -8,8 +8,9 @@ db = pd.read_csv("bono.csv")
 @app.route('/')
 def home():
     return render_template('index.html')
-@app.route('/', methods =["GET", "POST"])
 
+    
+@app.route('/', methods =["GET", "POST"])
 def BUSCADOR():
  busca = request.form["busca"]
  tipo = request.form["tipo"]
