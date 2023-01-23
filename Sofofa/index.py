@@ -15,12 +15,12 @@ def BUSCADOR():
  busca = request.form["busca"]
  tipo = request.form["tipo"]
  if busca == "subsidios":
-  print ("Bienvenido a la seccion de subsidios")
+  
   in_1 = df[df['Región'] == tipo]
   if in_1.empty:
-            return 'Region no encontrada, trata de ser mas preciso'
+     return 'Region no encontrada, trata de ser mas preciso'
   else:
-            return render_template('index.html',  tables=[in_1.to_html(classes='data')], titles=in_1.columns.values)
+     return render_template('index.html',  tables=[in_1.to_html(classes='data')], titles=in_1.columns.values)
  elif busca == "bono":
     print("Bienvenido a la seccion bonos")
     in_2 = db[db['Glosa.Comuna'] == tipo]

@@ -8,20 +8,25 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
 </head>
 <body>
-    <header> Buscador de gobierno</header>
+    <header><img src="C:/Users/Administrador/Desktop/repos/sofofa-pasantias/Sofofa/Apartado/Logo gobierno.png" class="imagen"> Buscador de gobierno</header>
     <Section>
         <div class="login">
     <h1>Que quiere buscar</h1>
     <p>En algunas tiene que ser un poco mas espcifico para que logren funcionar </p>
+    <p>Solo tenemos hasta el momento Subsidios, bonos y ley de presupuesto</p>
+    <p>Los subsidios estan separados en region, los bonos en comuna y sobre la ley de presupuesto segun mes</p>
     <form action ="{{url_for('BUSCADOR')}}" method="post">
         <input type="text" name="busca" placeholder="¿que busca?">
         <input type="text" name="tipo" placeholder="tipo de dato especifico">
         <button type="submit" class="btn btn-primary btn-block btn_large"> enviar</button>
     </div>
+    <div class="tabla">
     {% for table in tables %}
             {{titles[loop.index]}}
             {{ table|safe }}
 {% endfor %}
+</div>
     </Section>
+    <footer>Derechos de autor ©</footer>
 </body>
 </html>

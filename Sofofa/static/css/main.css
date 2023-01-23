@@ -1,19 +1,35 @@
-
 body{
-    background-color:rgb(150, 144, 144);
+    background-color:white;
 }
-
 header{
-    background-color: rgb(16, 116, 129);
+    background-color: blue;
     height: 60px;
-    width: auto;
+    width: 100%;
     margin: auto;
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
+    color: white;
 }
 .textoheader{
     margin-top: 30px;
-
+}
+footer{
+    background-color: grey;
+    height: 40px;
+    width: 100%;
+    justify-content:center;
+    display: flex;
+    bottom: 0;
+    position: absolute;
+}
+.tabla{
+    background-color: grey;
+    width: auto;
+    height: auto;
+}
+.imagen{
+    height: 40px;
+    width: 50px;
 }
