@@ -1,15 +1,20 @@
 from flask import Flask, request, render_template, request, session, redirect
 import numpy as np
 import pandas as pd
+import os
 app = Flask(__name__)
 ds = pd.read_csv("leype.csv")
 df = pd.read_csv("SUBa.csv")
 db = pd.read_csv("bono.csv")
+IMG_FOLDER = os.path.join('static', 'IMG')
+app.config['UPLOAD_FOLDER'] = IMG_FOLDER
 @app.route('/')
+def Display_IMG():
+    Flask_Logo = os.path.join(app.config['UPLOAD_FOLDER'], 'Logo_gobierno.png')
+    return render_template("index.html", user_image=Flask_Logo)
 def home():
     return render_template('index.html')
 
-    
 @app.route('/', methods =["GET", "POST"])
 def BUSCADOR():
  busca = request.form["busca"]

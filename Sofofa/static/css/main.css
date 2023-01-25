@@ -21,15 +21,15 @@ footer{
     width: 100%;
     justify-content:center;
     display: flex;
-    bottom: 0;
+    bottom: 0 ;
     position: absolute;
 }
 .tabla{
-    background-color: grey;
-    width: auto;
+    background-color: rgb(248, 128, 128);
+    width: 100%;
     height: auto;
 }
-.imagen{
-    height: 40px;
+#imagen{
+    height: 50px;
     width: 50px;
 }
