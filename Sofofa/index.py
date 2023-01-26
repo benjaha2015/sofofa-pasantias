@@ -42,7 +42,8 @@ def BUSCADOR():
     else:
         print("Esto es lo que se encontro con el mes elegido")
         return render_template('index.html',  tables=[in_3.to_html(classes='data')], titles=in_3.columns.values)
-
+ else:
+    return render_template('index.html')
 if __name__ =='__main__':
    app.debug = True
    app.run(host='0.0.0.0')
